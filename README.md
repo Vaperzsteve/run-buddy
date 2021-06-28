@@ -1,3 +1,14 @@
 # run-buddy
 
-this is a website that creates an interface for trainers to get potentisl clients.
+## Purpose
+A website that offers fitness training services.
+
+## Built With
+* HTML
+* CSS
+
+## Website
+https://vapersteve.github.io/run-buddy/
+
+## Contribution
+Made with ❤️ by Steve Robertson
