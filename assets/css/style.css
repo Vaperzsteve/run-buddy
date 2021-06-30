@@ -20,6 +20,9 @@
   header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   
   header h1 {
@@ -27,7 +30,7 @@
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
+    /* display: inline; */
   }
   header a {
     text-decoration: none;
@@ -35,13 +38,13 @@
   }
   
   header nav {
-    float: right;
+    /* float: right; */
     margin: 7px 0;
   }
   
-  header nav ul li {
+   header nav ul li {
     display: inline;
-  }
+  } 
   
   header nav ul li a {
     margin: 0 30px;
@@ -191,6 +194,7 @@
 
   .steps span {
     font-size: 38px;
+    color:#39a6b2;
   }
 
   /* What you do End */
