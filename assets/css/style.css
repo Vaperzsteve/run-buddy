@@ -93,10 +93,14 @@
   .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    /* margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block; */
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
   }
   
   .primary-border {
@@ -184,9 +188,9 @@
   /* Hero Style End */
 
   /* What we do Begin */
-  .intro {
+  /* .intro {
     text-align: center;
-  }
+  } */
 
   .intro p {
     line-height: 1.7;
@@ -194,13 +198,14 @@
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
   }
   /* What we do End */
 
 
   /* What you do Begin */
   .steps {
-    text-align: center;
+    /* text-align: center; */
     background: #fce138;
   }
   
@@ -233,9 +238,9 @@
 
   /* Meet your trainers Start */
 
-  .trainers {
+  /* .trainers {
     text-align: center;
-  }
+  } */
 
   .trainer {
     width: 900px;
@@ -277,7 +282,7 @@
   /* Reach Out Start */
 
   .contact {
-    text-align: center;
+    /* text-align: center; */
     background: #024e76;
   }
 
@@ -316,6 +321,13 @@
   }
 
   /* Reach Out End */
+
+  /* FLexbox additional css start */
+  
+  .flex-row {
+    display: flex;
+  }
+  /* FLexbox additional css start */
 
 
 
