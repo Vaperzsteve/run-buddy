@@ -9,14 +9,7 @@
     font-family: Helvetica, Arial, sans-serif;
   }
 
-  .text-left {
-    text-align: left;
-  }
-
-  .text-right {
-    text-align: right;
-  }
-  
+ 
   header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -115,7 +108,6 @@
   
   .hero {
     background-image: url("../images/hero-bg.jpeg");
-    height: 600px;
     background-size: cover;
     background-position: center;
     /* height: 600px;
@@ -286,7 +278,7 @@
   } 
 
   .trainer {
-    margin: 0 auto 20px auto; 
+    margin: 20px; 
     background: #024e76;
     color: #fce138;
     /* width: 900px;
@@ -399,12 +391,20 @@
 
   /* Reach Out End */
 
-  /* FLexbox additional css start */
-  
+  /* Utility css start */
+
+  .text-left {
+    text-align: left;
+  }
+
+  .text-right {
+    text-align: right;
+  }
+
   .flex-row {
     display: flex;
   }
-  /* FLexbox additional css start */
+  /* Utility css start */
 
 
 
