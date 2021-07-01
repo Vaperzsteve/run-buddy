@@ -23,6 +23,7 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    /* background-position: center; */
     background-position: 80%;
   }
   
@@ -127,7 +128,7 @@
   .hero {
     background-image: url("../images/hero-bg.jpeg");
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     background-attachment: fixed;
     background-position: 80%;
     /* height: 600px;
@@ -413,21 +414,37 @@
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    /* color: #024e76; */
+    color: #024e76; 
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: rgba(191,211,221, 0.75);
-    color: #000;
+    background-color: rgba(255,255,255, 0.75);
   }
 
   .contact-form input:focus, .contact-form textarea:focus {
  
     background-color: rgba(255,255,255, 1.0);
+    outline: none;
   }
 
+  /* .contact-form button {
+    color: #fce138;
+    background: #39a6b2;
+  } */
+
   .contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  
+  .contact-form button:hover {
     color: #fce138;
     background: #39a6b2;
   }
@@ -526,6 +543,10 @@
 
   .step-text {
     flex: 100%;  
+  }
+
+  .trainer-bio h3, .trainer-bio h4 {
+    display: block;
   }
 
 }
